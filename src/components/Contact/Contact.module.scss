@@ -1,0 +1,35 @@
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem 0;
+  font-size: 1.2rem;
+
+  .contactTitle {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: var(--weight-bold);
+  }
+
+  .contactItemContainer {
+
+  }
+
+  .contactItem {
+    display: flex;
+
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
+
+  .itemIcon {
+    color: var(--color-primary-dark);
+    font-size: 2rem;
+    width: 4rem;
+  }
+
+  .itemData {
+    margin-top: 0.3rem;
+  }
+}

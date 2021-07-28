@@ -1,0 +1,17 @@
+.navigationContainer {
+  &.navigation {
+    background-color: var(--color-primary-dark);
+  }
+
+  .logo {
+    margin-right: auto;
+    letter-spacing: 1px;
+  }
+
+  .navigationItem {
+    font-family: var(--font-primary);
+    color: var(--color-light);
+    text-transform: none;
+    font-size: 1.2rem;
+  }
+}
