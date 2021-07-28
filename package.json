@@ -2,6 +2,7 @@
   "name": "advocate-office",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://krzempekk.github.io/advocate-office",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
@@ -13,6 +14,7 @@
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
     "classnames": "^2.3.1",
+    "gh-pages": "^3.2.3",
     "node-sass": "^4.14.1",
     "prettier": "^2.2.1",
     "react": "^17.0.1",
@@ -25,7 +27,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
