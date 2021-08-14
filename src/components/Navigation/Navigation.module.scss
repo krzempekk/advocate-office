@@ -6,6 +6,7 @@
   .logo {
     margin-right: auto;
     letter-spacing: 1px;
+    font-size: 1.5rem;
   }
 
   .navigationItem {
@@ -13,5 +14,17 @@
     color: var(--color-light);
     text-transform: none;
     font-size: 1.2rem;
+    
+    @media (max-width: 960px) {
+      display: none;
+    }
+  }
+}
+.menuIcon {
+  color: var(--color-light);
+  display: none;
+
+  @media (max-width: 960px) {
+    display: block;
   }
 }

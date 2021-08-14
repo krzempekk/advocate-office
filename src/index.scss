@@ -12,12 +12,17 @@
   --weight-thin: 300;
   --weight-regular: 400;
   --weight-bold: 600;
+
+  font-size: 15px;
+
+  @media (max-width: 500px) {
+    font-size: 13px;
+  }
 }
 
 body {
   margin: 0;
   font-family: var(--font-primary);
-  font-size: 18px;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

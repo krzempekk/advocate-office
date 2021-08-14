@@ -13,9 +13,28 @@ export const Contact: React.FC = () => {
         <div className={styles.contactItem}>
           <RoomIcon className={styles.itemIcon} />
           <div className={styles.itemData}>
-            „Kancelaria Adwokacka” Sławomir Kowalski <br />
-            ul. Wolności 345/903 (piętro 9) <br />
-            41-800 Zabrze
+            <a
+              href="https://goo.gl/maps/PX9mhhmJngiXdTq67"
+              target="_blank"
+              rel="noreferrer"
+            >
+              „Kancelaria Adwokacka” Sławomir Kowalski <br />
+              ul. Wolności 345/903 (piętro 9) <br />
+              41-800 Zabrze
+            </a>
+          </div>
+        </div>
+        <div className={styles.contactItem}>
+          <RoomIcon className={styles.itemIcon} />
+          <div className={styles.itemData}>
+            <a
+              href="https://goo.gl/maps/wyYw9B9oULGynqEF6"
+              target="_blank"
+              rel="noreferrer"
+            >
+              ul. Wojska Polskiego 2c <br />
+              44-120 Pyskowice
+            </a>
           </div>
         </div>
         <div className={styles.contactItem}>

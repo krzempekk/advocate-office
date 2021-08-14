@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import styles from "./AboutMe.module.scss";
-import photo from "../../assets/lawyer.jpg";
+import photo from "../../assets/photo.jpg";
 
 export const AboutMe: React.FC = () => {
   const timelineItems = [
@@ -73,28 +73,33 @@ export const AboutMe: React.FC = () => {
   ];
 
   return (
-    <div className={styles.aboutMeContainer} id="about-me">
-      <div className={styles.descriptionContainer}>
-        <h2 className={styles.descriptionTitle}>O mnie</h2>
-        <div className={styles.description}>
-          Posiadam wieloletnie doświadczenie w zakresie obsługi prawnej osób
-          fizycznych oraz małych podmiotów gospodarczych, w tym przede wszystkim
-          w zakresie reprezentacji stron w sporach sądowych. Władam językiem
-          niemieckim.
-          <div className={styles.timelineContainer}>
-            {timelineItems.map((item) => (
-              <div className={styles.timelineItem}>
-                <div className={styles.itemData}>
-                  <div>{item.description}</div>
-                  <div className={styles.itemTime}>{item.time}</div>
+    <div id="about-me">
+      <h2 className={styles.aboutMeTitle}>O mnie</h2>
+      <div className={styles.aboutMeContainer}>
+        <div className={styles.descriptionContainer}>
+          <h2 className={styles.descriptionTitle}>O mnie</h2>
+          <div className={styles.description}>
+            Posiadam wieloletnie doświadczenie w zakresie obsługi prawnej{" "}
+            <strong>osób fizycznych</strong> oraz{" "}
+            <strong>małych podmiotów gospodarczych</strong>, w tym przede
+            wszystkim w zakresie{" "}
+            <strong>reprezentacji stron w sporach sądowych</strong>. Władam
+            językiem <strong>niemieckim</strong>.
+            <div className={styles.timelineContainer}>
+              {timelineItems.map((item) => (
+                <div className={styles.timelineItem}>
+                  <div className={styles.itemData}>
+                    <div>{item.description}</div>
+                    <div className={styles.itemTime}>{item.time}</div>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
-      </div>
-      <div className={styles.photoContainer}>
-        <img src={photo} />
+        <div className={styles.photoContainer}>
+          <img src={photo} alt="Moje zdjęcie" />
+        </div>
       </div>
     </div>
   );

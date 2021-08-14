@@ -91,7 +91,7 @@ export const FieldsOfSpecialty: React.FC = () => {
       </h2>
       <Grid container spacing={3}>
         {fields.map((field) => (
-          <Grid item xs={3}>
+          <Grid item xs={12} md={3}>
             <Field {...field} />
           </Grid>
         ))}
