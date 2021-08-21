@@ -1,4 +1,23 @@
-.footerContainer {
-  height: 10rem;
-  background-color: var(--color-primary);
+.container {
+  margin-top: 6rem;
+  padding: 4rem 3rem;
+  background-color: var(--color-secondary);
+  box-shadow: 0 -2px 4px -1px rgba(0, 0, 0, 0.2), 0 -4px 5px 0 rgba(0, 0, 0, 0.14), 0 -1px 10px 0 rgba(0, 0, 0, 0.12);
+  display: flex;
+  justify-content: space-evenly;
+
+  .contactItem {
+    display: flex;
+    color: var(--color-light);
+  }
+
+  .itemIcon {
+    font-size: 2rem;
+    width: 4rem;
+  }
+
+  .itemData {
+    font-size: 1.3rem;
+    margin-top: 0.3rem;
+  }
 }

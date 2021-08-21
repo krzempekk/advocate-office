@@ -7,7 +7,7 @@ import RoomIcon from "@material-ui/icons/Room";
 
 export const Contact: React.FC = () => {
   return (
-    <div className={styles.contactContainer} id="contact">
+    <div className={styles.contactContainer}>
       <div className={styles.contactTitle}>Kontakt</div>
       <div className={styles.contactItemContainer}>
         <div className={styles.contactItem}>
@@ -32,6 +32,7 @@ export const Contact: React.FC = () => {
               target="_blank"
               rel="noreferrer"
             >
+              Filia Kancelarii <br />
               ul. Wojska Polskiego 2c <br />
               44-120 Pyskowice
             </a>

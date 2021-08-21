@@ -1,19 +1,9 @@
 import React from "react";
-import {
-  Header,
-  Footer,
-  Navigation,
-  FieldsOfSpecialty,
-  AboutMe,
-  Contact,
-} from "../../components";
+import { Footer, Introduction } from "../../components";
 
-export const Home: React.FC = () => (
+export const HomePage: React.FC = () => (
   <React.Fragment>
-    <Navigation />
-    <Header />
-    <FieldsOfSpecialty />
-    <AboutMe />
-    <Contact />
+    <Introduction />
+    <Footer />
   </React.Fragment>
 );

@@ -5,10 +5,8 @@ export const Header: React.FC = () => {
   return (
     <div className={styles.headerContainer}>
       <blockquote className={styles.quote}>
-        <div className={styles.title}>
-          <q>Pacta sunt servanda</q>
-        </div>
-        <div className={styles.mainText}>Umów należy dotrzymywać</div>
+        <div className={styles.title}>Pacta sunt servanda</div>
+        <div className={styles.subtitle}>Umów należy dotrzymywać</div>
       </blockquote>
     </div>
   );

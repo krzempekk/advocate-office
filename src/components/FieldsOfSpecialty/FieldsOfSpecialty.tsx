@@ -90,7 +90,7 @@ export const FieldsOfSpecialty: React.FC = () => {
   ];
 
   return (
-    <div className={styles.fieldsContainer} id="services">
+    <div className={styles.fieldsContainer}>
       <h2 className={styles.fieldsHeading}>
         Dziedziny prawa, w których się specjalizuję
       </h2>

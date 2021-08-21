@@ -1,0 +1,40 @@
+.container {
+  max-width: 1440px;
+  width: 75%;
+  margin: 3rem auto;
+  font-size: 1.2rem;
+  line-height: 1.75;
+}
+
+.heading {
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+
+  .headingText {
+    position: relative;
+    color: var(--color-primary-dark);
+
+    &::before, &::after {
+      position: absolute;
+      display: block;
+      content: '';
+      top: 50%;
+      width: 75px;
+      border-bottom: 2px solid var(--color-primary-dark);
+    }
+
+    &::before {
+      left: -1rem;
+      transform: translate(-100%, -50%);
+    }
+
+    &::after {
+      right: -1rem;
+      transform: translate(100%, -50%);
+    }
+
+  }
+
+}

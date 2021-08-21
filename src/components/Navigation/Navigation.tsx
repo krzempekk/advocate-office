@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import styles from "./Navigation.module.scss";
 import {
   AppBar,
@@ -30,19 +31,21 @@ export const Navigation: React.FC = () => {
       position="sticky"
     >
       <Toolbar>
-        <Logo />
-        <Button className={styles.navigationItem} href="#about-office">
-          O kancelarii
-        </Button>
-        <Button className={styles.navigationItem} href="#services">
-          Zakres usług
-        </Button>
-        <Button className={styles.navigationItem} href="#about-me">
-          O mnie
-        </Button>
-        <Button className={styles.navigationItem} href="#contact">
-          Kontakt
-        </Button>
+        <Link to="/" className={styles.logo}>
+          <Logo />
+        </Link>
+        <Link to="/">
+          <Button className={styles.navigationItem}>O kancelarii</Button>
+        </Link>
+        <Link to="/services">
+          <Button className={styles.navigationItem}>Zakres usług</Button>
+        </Link>
+        <Link to="/about">
+          <Button className={styles.navigationItem}>O mnie</Button>
+        </Link>
+        <Link to="/contact">
+          <Button className={styles.navigationItem}>Kontakt</Button>
+        </Link>
         <IconButton
           aria-label="more"
           aria-controls="long-menu"
@@ -58,18 +61,26 @@ export const Navigation: React.FC = () => {
           open={open}
           onClose={handleClose}
         >
-          <MenuItem component="a" href="#about-office" onClick={handleClose}>
-            O kancelarii
-          </MenuItem>
-          <MenuItem component="a" href="#services" onClick={handleClose}>
-            Zakres usług
-          </MenuItem>
-          <MenuItem component="a" href="#about-me" onClick={handleClose}>
-            O mnie
-          </MenuItem>
-          <MenuItem component="a" href="#contact" onClick={handleClose}>
-            Kontakt
-          </MenuItem>
+          <Link to="/">
+            <MenuItem component="a" onClick={handleClose}>
+              O kancelarii
+            </MenuItem>
+          </Link>
+          <Link to="/services">
+            <MenuItem component="a" onClick={handleClose}>
+              Zakres usług
+            </MenuItem>
+          </Link>
+          <Link to="/about">
+            <MenuItem component="a" onClick={handleClose}>
+              O mnie
+            </MenuItem>
+          </Link>
+          <Link to="/contact">
+            <MenuItem component="a" onClick={handleClose}>
+              Kontakt
+            </MenuItem>
+          </Link>
         </Menu>
       </Toolbar>
     </AppBar>

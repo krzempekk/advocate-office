@@ -1,4 +1,8 @@
-.aboutMeContainer {
+.wrapper {
+  margin: 4rem 0;
+}
+
+.container {
   display: flex;
 
   @media (max-width: 960px) {
@@ -6,7 +10,7 @@
   }
 }
 
-.aboutMeTitle {
+.title {
   font-size: 2rem;
   text-align: center;
   margin-top: 0;
@@ -63,6 +67,7 @@
     @media (max-width: 960px) {
       width: 50%;
       max-width: 300px;
+      margin: 1rem 0;
     }
   }
 }

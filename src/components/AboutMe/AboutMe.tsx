@@ -73,9 +73,9 @@ export const AboutMe: React.FC = () => {
   ];
 
   return (
-    <div id="about-me">
-      <h2 className={styles.aboutMeTitle}>O mnie</h2>
-      <div className={styles.aboutMeContainer}>
+    <div className={styles.wrapper}>
+      <h2 className={styles.title}>O mnie</h2>
+      <div className={styles.container}>
         <div className={styles.descriptionContainer}>
           <h2 className={styles.descriptionTitle}>O mnie</h2>
           <div className={styles.description}>
@@ -98,7 +98,7 @@ export const AboutMe: React.FC = () => {
           </div>
         </div>
         <div className={styles.photoContainer}>
-          <img src={photo} alt="Moje zdjęcie" />
+          <img src={photo} alt="Zdjęcie Sławomira Kowalskiego" />
         </div>
       </div>
     </div>
