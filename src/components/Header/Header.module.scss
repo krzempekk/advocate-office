@@ -1,16 +1,15 @@
 .headerContainer {
-  padding: 6rem 8rem;
+  height: 450px;
   position: relative;
 
-  background-color: var(--color-primary);
-  //background-image: url("../../assets/katowice.jpeg");
-  //background-repeat: no-repeat;
-  //background-size: cover;
-  //background-position: center;
-  //background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url("../../assets/temida.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -50px;
+  background-blend-mode: multiply;
 
   box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
-
 
   color: var(--color-light);
   text-align: center;
@@ -29,14 +28,36 @@
   fill: var(--color-light);
 }
 
+.quote {
+  position: absolute;
+  right: 5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: right;
+
+  q {
+    &::before {
+      position: relative;
+      font-size: 4rem;
+      top: 10px;
+      right: 5px;
+    }
+
+    &::after {
+      position: relative;
+      font-size: 4rem;
+      top: 10px;
+    }
+  }
+}
+
 .title {
   margin-bottom: 1rem;
-  font-size: 2.5rem;
+  font-size: 2.6rem;
   font-style: italic;
   font-weight: var(--weight-regular);
 }
 
 .mainText {
-  font-size: 1.2rem;
-  line-height: 1.5;
+  font-size: 1.4rem;
 }

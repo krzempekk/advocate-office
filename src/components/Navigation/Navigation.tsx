@@ -10,6 +10,7 @@ import {
 } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 import cx from "classnames";
+import { Logo } from "../Logo/Logo";
 
 export const Navigation: React.FC = () => {
   const [anchorEl, setAnchorEl] = useState<HTMLButtonElement | null>(null);
@@ -29,7 +30,7 @@ export const Navigation: React.FC = () => {
       position="sticky"
     >
       <Toolbar>
-        <div className={styles.logo}>Sławomir Kowalski</div>
+        <Logo />
         <Button className={styles.navigationItem} href="#about-office">
           O kancelarii
         </Button>

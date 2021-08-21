@@ -63,13 +63,6 @@ export const FieldsOfSpecialty: React.FC = () => {
         "sądowa windykacja należności",
         "o zasiedzenie",
         "o rozgraniczenie nieruchomości",
-      ],
-    },
-    {
-      icon: BusinessIcon,
-      title: "Prawo gospodarcze",
-      description: "Przykładowe sprawy z tej dziedziny prawa...",
-      items: [
         "o ochronę naruszonego posiadania",
         "o służebność drogi koniecznej",
         "o zniesienie współwłasności",
@@ -80,6 +73,18 @@ export const FieldsOfSpecialty: React.FC = () => {
         "o odrzucenie spadku",
         "o otwarcie i ogłoszenie testamentu",
         "o dział spadku",
+      ],
+    },
+    {
+      icon: BusinessIcon,
+      title: "Prawo gospodarcze",
+      description: "Przykładowe sprawy z tej dziedziny prawa...",
+      items: [
+        "prowadzenie procesów sądowych pomiędzy przedsiębiorcami",
+        "sporządzanie projektów umów",
+        "weryfikacja umów",
+        "pomoc przy negocjacjach z kontrahentami",
+        "stała obsługa prawna",
       ],
     },
   ];

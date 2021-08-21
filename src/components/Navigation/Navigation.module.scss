@@ -3,12 +3,6 @@
     background-color: var(--color-primary-dark);
   }
 
-  .logo {
-    margin-right: auto;
-    letter-spacing: 1px;
-    font-size: 1.5rem;
-  }
-
   .navigationItem {
     font-family: var(--font-primary);
     color: var(--color-light);
@@ -19,12 +13,13 @@
       display: none;
     }
   }
-}
-.menuIcon {
-  color: var(--color-light);
-  display: none;
 
-  @media (max-width: 960px) {
-    display: block;
+  .menuIcon {
+    color: var(--color-light);
+    display: none;
+
+    @media (max-width: 960px) {
+      display: block;
+    }
   }
 }
