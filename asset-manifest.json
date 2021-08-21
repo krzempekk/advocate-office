@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/advocate-office/static/css/main.6f610992.chunk.css",
-    "main.js": "/advocate-office/static/js/main.07edb676.chunk.js",
-    "main.js.map": "/advocate-office/static/js/main.07edb676.chunk.js.map",
+    "main.css": "/advocate-office/static/css/main.11b08d19.chunk.css",
+    "main.js": "/advocate-office/static/js/main.1b13519f.chunk.js",
+    "main.js.map": "/advocate-office/static/js/main.1b13519f.chunk.js.map",
     "runtime-main.js": "/advocate-office/static/js/runtime-main.9c6a5659.js",
     "runtime-main.js.map": "/advocate-office/static/js/runtime-main.9c6a5659.js.map",
-    "static/js/2.93797508.chunk.js": "/advocate-office/static/js/2.93797508.chunk.js",
-    "static/js/2.93797508.chunk.js.map": "/advocate-office/static/js/2.93797508.chunk.js.map",
+    "static/js/2.fcc2c80a.chunk.js": "/advocate-office/static/js/2.fcc2c80a.chunk.js",
+    "static/js/2.fcc2c80a.chunk.js.map": "/advocate-office/static/js/2.fcc2c80a.chunk.js.map",
     "index.html": "/advocate-office/index.html",
-    "static/css/main.6f610992.chunk.css.map": "/advocate-office/static/css/main.6f610992.chunk.css.map",
-    "static/js/2.93797508.chunk.js.LICENSE.txt": "/advocate-office/static/js/2.93797508.chunk.js.LICENSE.txt",
+    "static/css/main.11b08d19.chunk.css.map": "/advocate-office/static/css/main.11b08d19.chunk.css.map",
+    "static/js/2.fcc2c80a.chunk.js.LICENSE.txt": "/advocate-office/static/js/2.fcc2c80a.chunk.js.LICENSE.txt",
     "static/media/photo.2b5c0f99.jpg": "/advocate-office/static/media/photo.2b5c0f99.jpg",
     "static/media/Header.module.scss": "/advocate-office/static/media/temida.3c0df9b6.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9c6a5659.js",
-    "static/js/2.93797508.chunk.js",
-    "static/css/main.6f610992.chunk.css",
-    "static/js/main.07edb676.chunk.js"
+    "static/js/2.fcc2c80a.chunk.js",
+    "static/css/main.11b08d19.chunk.css",
+    "static/js/main.1b13519f.chunk.js"
   ]
 }
