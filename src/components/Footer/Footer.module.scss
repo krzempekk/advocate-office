@@ -3,21 +3,34 @@
   padding: 4rem 3rem;
   background-color: var(--color-secondary);
   box-shadow: 0 -2px 4px -1px rgba(0, 0, 0, 0.2), 0 -4px 5px 0 rgba(0, 0, 0, 0.14), 0 -1px 10px 0 rgba(0, 0, 0, 0.12);
-  display: flex;
   justify-content: space-evenly;
 
-  .contactItem {
-    display: flex;
-    color: var(--color-light);
+  @media (max-width: 1400px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
   }
+}
 
-  .itemIcon {
-    font-size: 2rem;
-    width: 4rem;
-  }
+.contactItem {
+  display: flex;
+  color: var(--color-light);
 
-  .itemData {
-    font-size: 1.3rem;
-    margin-top: 0.3rem;
+  @media (max-width: 1400px) {
+    width: #{"max(50%, 500px)"};
+
+    &:not(:last-child) {
+      margin-bottom: 1.2rem;
+    }
   }
+}
+
+.itemIcon {
+  font-size: 2rem;
+  width: 4rem;
+}
+
+.itemData {
+  font-size: 1.3rem;
+  margin-top: 0.3rem;
 }
